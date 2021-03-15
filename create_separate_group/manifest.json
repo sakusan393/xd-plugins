@@ -1,0 +1,18 @@
+{
+  "id": "develop393_202102262101",
+  "name": "Create Separate Group",
+  "description": "複数選択したオブジェクトを個別にグループ化",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Create Separate Group",
+      "shortcut": {"win": "Ctrl+Shift+Alt+D"},
+      "commandId": "separateGroup"
+    }
+  ]
+}

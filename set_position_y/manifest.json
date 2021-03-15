@@ -1,0 +1,21 @@
+{
+  "id": "develop393_202101181714",
+  "name": "Set Position Y",
+  "description": "選択したオブジェクトのy座標を設定(25000以上も可、四則演算も可)",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Set Position Y",
+      "shortcut": {
+        "mac": "Cmd+Opt+0",
+        "win": "Ctrl+Alt+0"
+      },
+      "commandId": "menuCommand"
+    }
+  ]
+}

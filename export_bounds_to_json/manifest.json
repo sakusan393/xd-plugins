@@ -1,0 +1,21 @@
+{
+  "id": "develop393_202101191713",
+  "name": "Export Bounds to JSON",
+  "description": "選択したオブジェクトの子のx,y,w,h,nameをjsonで出力",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Export Bounds to JSON",
+      "shortcut": {
+        "win": "Ctrl+Shift+Alt+A",
+        "mac": "Cmd+Shift+Opt+A"
+      },
+      "commandId": "createJson"
+    }
+  ]
+}
