@@ -1,0 +1,30 @@
+{
+  "name" : "Grouping individually",
+  "description": "Group multiple selected objects individually.The group name will be the same as the name of the original object.",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "id" : "764ffdfb",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  } ],
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Grouping individually",
+      "shortcut": {
+        "win": "Ctrl+Shift+Alt+D",
+        "mac": "Cmd+Shift+Opt+D"
+      },
+      "commandId": "separateGroup"
+    }
+  ],
+  "version" : "1.0.0"
+}

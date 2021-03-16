@@ -8,7 +8,7 @@
     * (メニューから、プラグイン > 開発版 > 開発フォルダーを表示で表示される場所)
     * https://adobexdplatform.com/plugin-docs/reference/structure/location.html
 
-## create_separate_group
+## grouping_individually
 
 * 複数選択したオブジェクトを個別でグループ化
     * グループ化したいオブジェクトを選択後、実行

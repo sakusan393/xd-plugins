@@ -14,7 +14,7 @@ const separateGroup = async (selection)=>{
     })
 }
 
-module.exports = { // コマンドIDとファンクションの紐付け
+module.exports = {
     commands: {
         separateGroup: separateGroup
     }
